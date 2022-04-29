@@ -5,9 +5,8 @@
 
 ### Installation
 
-Vagrant: [https://www.vagrantup.com/downloads](https://www.vagrantup.com/downloads)
-
-VirtualBox: [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+- Vagrant: [https://www.vagrantup.com/downloads](https://www.vagrantup.com/downloads)
+- VirtualBox: [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 
 ### Configuration
 
@@ -25,6 +24,7 @@ vagrant up
 Add ip address from about output to your local resolver
 
 ## Mac/Linux
+
 Copy paste the command from the vagrant output
 
 ## Windows
@@ -54,14 +54,12 @@ http://openreplay.local
 ### To start developing
 
 [Frontend](../../frontend/development.md)
-
 [API](../../api/development.md)
-
 [Backend](../../backend/development.md)
 
 ### Notes
 
-It’ll be a good practice to take a snapshot once the initial setup is complete, so that if something is not working as expected, you can always fall back to a stable known version
+It’ll be a good practice to take a snapshot once the initial setup is complete, so that if something is not working as expected, you can always fall back to a stable known version.
 
 ```bash
 cd openreplay-dev
@@ -78,5 +76,4 @@ vagrant snapshot restore openreplay-160-base
 
 <aside>
 💡 If the base VM is deleted, the snapshot won’t be available.
-
 </aside>
